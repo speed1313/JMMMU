@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/JMMMU/static/css/main.b7858535.css",
+    "main.js": "/JMMMU/static/js/main.43193d8d.js",
+    "static/js/488.23ac5c73.chunk.js": "/JMMMU/static/js/488.23ac5c73.chunk.js",
+    "index.html": "/JMMMU/index.html",
+    "main.b7858535.css.map": "/JMMMU/static/css/main.b7858535.css.map",
+    "main.43193d8d.js.map": "/JMMMU/static/js/main.43193d8d.js.map",
+    "488.23ac5c73.chunk.js.map": "/JMMMU/static/js/488.23ac5c73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7858535.css",
+    "static/js/main.43193d8d.js"
+  ]
+}
