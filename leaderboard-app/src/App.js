@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { FaGithub, FaRegFilePdf, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaRegFilePdf } from "react-icons/fa";
 import './App.css';
 import LinkButton from './LinkButton';
 
@@ -8,12 +8,14 @@ function App() {
     const [datasets, setDatasets] = useState([]);
     const [metrics, setMetrics] = useState({});
     const [sortConfig, setSortConfig] = useState(null);
-
+    console.log("hello");
     useEffect(() => {
-        // JSONデータをフェッチ
-        fetch('/leaderboard.json')
+        // public/leaderboardからJSONデータをフェッチ
+        fetch('leaderboard.json')
             .then((response) => response.json())
-            .then((data) => {
+          .then((data) => {
+            // print debug
+            console.log(data);
                 setData(data);
 
                 // データセットとメトリックを動的に取得
@@ -38,6 +40,7 @@ function App() {
             })
             .catch((error) => console.error('Error loading data:', error));
     }, []);
+  console.log("hoge");
 
     // ソート機能
     const handleSort = (dataset, metric) => {
@@ -62,31 +65,30 @@ function App() {
         return '↕';  // Default arrow for unsorted columns
     };
   const LINK_BUTTONS = [
-  {
-    url: "https://github.com/llm-jp/llm-jp-eval-mm",
-    children: (
-      <>
-        <FaRegFilePdf />
-        &nbsp;Paper (arXiv)
-      </>
-    ),
-  },
-  {
-    url: "https://github.com/llm-jp/llm-jp-eval-mm",
-    children: (
-      <>
-        <FaGithub />
-        &nbsp;Code
-      </>
-    ),
-  },
-];
+    {
+      url: "https://github.com/llm-jp/llm-jp-eval-mm",
+      children: (
+        <>
+          <FaRegFilePdf />
+          &nbsp;Paper (arXiv)
+        </>
+      ),
+    },
+    {
+      url: "https://github.com/llm-jp/llm-jp-eval-mm",
+      children: (
+        <>
+          <FaGithub />
+          &nbsp;Code
+        </>
+      ),
+    },
+  ];
 
     return (
         <div className="App">
             <header>
           <h1>llm-jp-eval-mm Leaderboard</h1>
-          {/* paper, code link button */}
          <div className="link-buttons">
           {LINK_BUTTONS.map((linkButton, index) => (
             <LinkButton key={`linkButton${index}`} url={linkButton.url}>

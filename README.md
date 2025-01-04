@@ -1,3 +1,9 @@
+
+## How to deploy
+```
+ npm run deploy
+```
+
 # JMMMU
 The official repository for the website scripts of "JMMMU: A Japanese Massive Multi-discipline Multimodal Understanding Benchmark"
 

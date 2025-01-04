@@ -116,54 +116,54 @@
             "JMMMU": { "Acc": 0.397}
         }
     },
-{
-    "model": "InternVL2 8B",
-    "url": "https://huggingface.co/OpenGVLab/InternVL2-8B",
-    "scores": {
-        "Heron": { "llm": 46.6},
-        "JVB-ItW": { "llm": 3.11},
-        "VGVQA": { "llm": 3.20},
-        "MulIm-VQA": { "llm": 2.54},
-        "JDocQA": { "Acc": 0.197, "llm": 2.58},
-        "JMMMU": { "Acc": 0.390}
-    }
-},
-{
-    "model": "Qwen2-VL 7B Instruct",
-    "url": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct",
-    "scores": {
-        "Heron": { "llm": 55.5},
-        "JVB-ItW": { "llm": 3.61},
-        "VGVQA": { "llm": 3.60},
-        "MulIm-VQA": { "llm": 4.16},
-        "JDocQA": { "Acc": 0.270, "llm": 3.24},
-        "JMMMU": { "Acc": 0.480}
-    }
-},
-{
-    "model": "InternVL2 26B",
-    "url": "https://huggingface.co/OpenGVLab/InternVL2-26B",
-    "scores": {
-        "Heron": { "llm": 53.8},
-        "JVB-ItW": { "llm": 3.53},
-        "VGVQA": { "llm": 3.40},
-        "MulIm-VQA": { "llm": 3.18},
-        "JDocQA": { "Acc": 0.146, "llm": 2.42},
-        "JMMMU": { "Acc": 0.393}
-    }
-},
-{
-    "model": "Qwen2-VL-72B-Instruct",
-    "url": "https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct",
-    "scores": {
-        "Heron": { "llm": 75.8},
-        "JVB-ItW": { "llm": 3.99},
-        "VGVQA": { "llm": 3.75},
-        "MulIm-VQA": { "llm": 4.45},
-        "JDocQA": { "Acc": 0.283, "llm": 3.66},
-        "JMMMU": { "Acc": 0.595}
-    }
-},
+    {
+        "model": "InternVL2 8B",
+        "url": "https://huggingface.co/OpenGVLab/InternVL2-8B",
+        "scores": {
+            "Heron": { "llm": 46.6},
+            "JVB-ItW": { "llm": 3.11},
+            "VGVQA": { "llm": 3.20},
+            "MulIm-VQA": { "llm": 2.54},
+            "JDocQA": { "Acc": 0.197, "llm": 2.58},
+            "JMMMU": { "Acc": 0.390}
+        }
+    },
+    {
+        "model": "Qwen2-VL 7B Instruct",
+        "url": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct",
+        "scores": {
+            "Heron": { "llm": 55.5},
+            "JVB-ItW": { "llm": 3.61},
+            "VGVQA": { "llm": 3.60},
+            "MulIm-VQA": { "llm": 4.16},
+            "JDocQA": { "Acc": 0.270, "llm": 3.24},
+            "JMMMU": { "Acc": 0.480}
+        }
+    },
+    {
+        "model": "InternVL2 26B",
+        "url": "https://huggingface.co/OpenGVLab/InternVL2-26B",
+        "scores": {
+            "Heron": { "llm": 53.8},
+            "JVB-ItW": { "llm": 3.53},
+            "VGVQA": { "llm": 3.40},
+            "MulIm-VQA": { "llm": 3.18},
+            "JDocQA": { "Acc": 0.146, "llm": 2.42},
+            "JMMMU": { "Acc": 0.393}
+        }
+    },
+    {
+        "model": "Qwen2-VL-72B-Instruct",
+        "url": "https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct",
+        "scores": {
+            "Heron": { "llm": 75.8},
+            "JVB-ItW": { "llm": 3.99},
+            "VGVQA": { "llm": 3.75},
+            "MulIm-VQA": { "llm": 4.45},
+            "JDocQA": { "Acc": 0.283, "llm": 3.66},
+            "JMMMU": { "Acc": 0.595}
+        }
+    },
     {
         "model": "GPT-4o (2024-05-13) (detail: auto)",
         "url": "https://platform.openai.com/docs/models#gpt-4o",
