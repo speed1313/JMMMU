@@ -29,8 +29,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20.14.0
-          cache: pnpm
-          cache-dependency-path: learderboard-app/pnpm-lock.yaml
 
       - name: Install dependencies
         run: pnpm install
